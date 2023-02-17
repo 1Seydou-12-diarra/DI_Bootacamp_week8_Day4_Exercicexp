@@ -1,6 +1,6 @@
 <?php
 // Créez une connexion de base de données au serveur PostgreSQL
-$dbname = "mydb";
+$dbname = "dvd";
 $host = "localhost";
 $port = "5432";
 $user = "postgres";

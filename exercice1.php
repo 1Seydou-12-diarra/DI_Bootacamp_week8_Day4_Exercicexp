@@ -1,10 +1,16 @@
 <?php 
 
-conn = psycopg2.connect(
+$conn = psycopg2.connect(
     host="localhost",
     database="dvd",
     user="postgres",
-    password="postgres")
+    password="postgres");
+    
+    $conn = pg_connect("dbname=$dbname host=$host port=$port user=$user password=$password");
 
-print("Opened database successfully")
+if (!$conn) {
+  echo "Opened database successfully";
+  exit;
+}
+
 ?>
