@@ -2,9 +2,9 @@
 
 conn = psycopg2.connect(
     host="localhost",
-    database="nom_de_la_base_de_donnees",
-    user="nom_utilisateur",
-    password="mot_de_passe")
+    database="dvd",
+    user="postgres",
+    password="postgres")
 
 print("Opened database successfully")
 ?>
