@@ -1,5 +1,6 @@
 <?php 
 // Créez une connexion de base de données au serveur PostgreSQL
+exercice4.php
 $conn = pg_connect("host=localhost dbname=mydatabase user=postgres password=mypassword");
 
 // Créez une requête SQL pour l'insertion.
